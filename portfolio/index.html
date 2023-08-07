@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="https://kit.fontawesome.com/e674bba739.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo"></img>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <i class="fas fa-times"></i>
+                </ul>
+                <i class="fas fa-bars"></i>
+            </nav>
+            <div class="header-text">
+                <p>Front-end разработчик</p>
+                <h1>Привет, я<br><span>Игорь </span>Кирпичёв</h1>
+            </div>
+        </div>
+    </div>
+    <!-- ----------ABOUT---------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">О себе</h1>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem expedita corporis culpa
+                        recusandae inventore cum quasi corrupti in eligendi veniam iusto sint quas, sequi temporibus hic
+                        est nemo veritatis eum beatae doloremque optio commodi iure ipsam. Doloribus earum tenetur,
+                        tempore at minus est sequi delectus accusamus facilis vel molestias laboriosam? Harum tempore,
+                        maiores molestiae deleniti similique assumenda esse nisi! Atque enim omnis quia dolorem
+                        adipisci? Harum id quas sequi qui itaque, debitis molestiae officia eos sapiente quia non,
+                        dolores, maxime consequatur placeat ipsa minima et. Placeat tenetur molestiae distinctio ad
+                        itaque libero ipsam, explicabo perferendis quam maxime possimus, facilis delectus.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="openTab('skills')">Умения</p>
+                        <p class="tab-links" onclick="openTab('experience')">Опыт</p>
+                        <p class="tab-links" onclick="openTab('education')">Образование</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Дизайн web приложений</li>
+                            <li><span>Web Development</span><br>Разработка web приложений</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>????</span><br>!!!</li>
+                            <li><span>????</span><br>!!!</li>
+                            <li><span>????</span><br>!!!</li>
+                            <li><span>????</span><br>!!!</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2021 - н.в.</span><br>ВГУ ПММ</li>
+                            <li><span>2021t</span><br>Летняя школа Surf по iOS разработке</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ----------SERVICES---------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">Мои навыки</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-brands fa-android"></i>
+                    <h2>Разработка приложений</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore aliquam nam sit. Soluta quasi
+                        officia, alias vitae fugiat fuga exercitationem.</p>
+                    <a href="#">Посмотреть на GitHub</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web разработка</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore aliquam nam sit. Soluta quasi
+                        officia, alias vitae fugiat fuga exercitationem.</p>
+                    <a href="#">Посмотреть на GitHub</a>
+
+                </div>
+                <div>
+
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX Дизайн</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore aliquam nam sit. Soluta quasi
+                        officia, alias vitae fugiat fuga exercitationem.</p>
+                    <a href="#">Посмотреть на GitHub</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ----------PORTFOLIO--------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">Мои работы</h1>
+            <p class="updates">Здесь будут появляться мои проекты</p>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png" alt="Добавить проект1">
+                    <div class="layer">
+                        <h2>Lorem ipsum dolor</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat quam facere quibusdam
+                            deserunt dolore vero. Incidunt ea nihil sint. Velit.</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work.jpg" alt="Добавить проект2">
+                    <div class="layer">
+                        <h2>Lorem ipsum dolor</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat quam facere quibusdam
+                            deserunt dolore vero. Incidunt ea nihil sint. Velit.</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.jpg" alt="Добавить проект3">
+                    <div class="layer">
+                        <h2>Lorem ipsum dolor</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat quam facere quibusdam
+                            deserunt dolore vero. Incidunt ea nihil sint. Velit.</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="https://github.com/kr1ssan" class="btn">GitHub</a>
+        </div>
+    </div>
+
+    <!-- ----------CONTACT---------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Всегда на связи</h1>
+                    <p><i class="fas fa-paper-plane"></i> kigor6782@gmail.com</p>
+                    <p><i class="fas fa-phone-square-alt"></i> +7 (960) 118 45 62</p>
+                    <div class="social-icons">
+                        <a href="https://t.me/notorious_ioneon"><i class="fab fa-telegram"></i></a>
+                        <a href="https://vk.com/notorious_ioneon"><i class="fab fa-vk"></i></a>
+                        <a href="https://instagram.com/notorious_ioneon"><i class="fab fa-instagram"></i></a>
+                    </div>
+                    <a href="images/my-cv.pdf" download class="btn btn2">Скачать резюме</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Имя" required>
+                        <input type="email" name="Email" placeholder="Email" required>
+                        <textarea name="Message" rows="6" placeholder="Напишите ваше послание"></textarea>
+                        <button type="submit" class="btn btn3">Отправить</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script>
+        var tabLinks = document.getElementsByClassName('tab-links');
+        var tabContents = document.getElementsByClassName('tab-contents');
+
+        function openTab(tabName) {
+            for (tabLink of tabLinks) {
+                tabLink.classList.remove('active-link');
+            }
+            for (tabContent of tabContents) {
+                tabContent.classList.remove('active-tab');
+            }
+            event.currentTarget.classList.add('active-link');
+            document.getElementById(tabName).classList.add('active-tab');
+        }
+
+        document.querySelector('.fas.fa-bars').addEventListener('click', function () {
+            document.querySelector('nav ul').classList.toggle('show');
+        });
+
+        document.querySelector('.fas.fa-times').addEventListener('click', function () {
+            document.querySelector('nav ul').classList.remove('show');
+        });
+
+    </script>
+</body>
+
+</html>
